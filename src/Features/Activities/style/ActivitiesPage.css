@@ -1,0 +1,91 @@
+.container-activities {
+  min-height: 90vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+.card-activities {
+  width: 70%;
+  height: 90%;
+  background-color: #383636ab;
+  color: #dcd2d2a3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(106, 105, 105, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.heading-activities {
+  font-size: 30px;
+  margin: 0;
+}
+
+.menu-activities {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.menu-activities-entry {
+  list-style: none;
+}
+
+.menu-activities-item {
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 140px;
+  white-space: nowrap;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.menu-activities-item:hover {
+  background-color: #4a90e2;
+  color: #ffffff;
+}
+
+.menu-activities-item--active {
+  background-color: #4a90e2;
+  color: #ffffff;
+}
+
+.list-activities {
+  min-height: 240px;
+  padding: 20px 0 0;
+  margin-top: 20px;
+  border-top: 1px solid #dcd2d2a3;
+}
+
+.list-activities-content {
+  color: #ffffff;
+  text-align: left;
+}
+
+.list-activities-title {
+  margin-bottom: 10px;
+}
+
+.list-activities-copy {
+  color: #dcd2d2a3;
+}
+
+.list-activities-copy + .list-activities-copy {
+  margin-top: 10px;
+}
+
+.list-activities-placeholder {
+  padding-left: 1.25rem;
+  color: #dcd2d2a3;
+}
+
+.list-activities-placeholder li + li {
+  margin-top: 10px;
+}
